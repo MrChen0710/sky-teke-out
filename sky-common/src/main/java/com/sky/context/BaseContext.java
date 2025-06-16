@@ -1,5 +1,5 @@
 package com.sky.context;
-
+//使用ThreadLocal封装了当前登录用户的ID
 public class BaseContext {
 
     public static ThreadLocal<Long> threadLocal = new ThreadLocal<>();
